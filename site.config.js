@@ -47,9 +47,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: "Dae12-Han/wish-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
